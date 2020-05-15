@@ -227,7 +227,7 @@ require get_template_directory() . '/inc/customizer/customizer.php';
 //Update theme
 require get_template_directory() . '/inc/update/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
- 'https://github.com/gupta977/embed_gallery_theme',
+ 'https://github.com/gupta977/embed-gallery',
  __FILE__,
  'embed-gallery'
 );
